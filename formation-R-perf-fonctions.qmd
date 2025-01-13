@@ -5,7 +5,7 @@ date: today
 date-format: "DD/MM/YYYY"
 author: "SSP/DEMESIS"
 description: |
-  Support de formation R-perfectiomment : Module Ecrire des fonctions avec R au MASA
+  Support de formation R-perfectiomment : Module Ecrire des fonctions avec R 
 slide-tone: false # for blind readers
 chalkboard: false # press the B key to toggle chalkboard
 transition: slide
@@ -33,8 +33,12 @@ Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
 [MASA](https://agreste.agriculture.gouv.fr/).
 
-Ces formations s'adressent à des agents **qui ont suivi la formation R
-initialisation**.\
+Ces formations s'adressent à des agents qui ont suivi **la formation R
+initialisation**.
+
+## Avant-propos
+
+\
 Elles sont données en présentiel sur une durée **de trois journée**, les
 modules de cette formation sont ajustables suivants le choix des agents.
 
@@ -70,3 +74,5 @@ RStudio Workbench.
 {{< include 01_quand-ecrire-une-fonction.qmd >}}
 
 {{< include 02_comment-ecrire-une-fonction.qmd >}}
+
+{{< include 03_comment-utiliser-une-fonction.qmd >}}

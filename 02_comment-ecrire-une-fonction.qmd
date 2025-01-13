@@ -1,4 +1,99 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
 # Comment écrire une fonction ? {.backgroundTitre}
 
-## Ecrire ses propres fonctions {.backgroundTitre}
+Une fonction exécute une série d’instructions, à partir d’éventuels
+objets donnés en entrée.
 
+![](img/clipboard-function1.png){fig-align="center"}
+
+On crée une fonction en utilisant l’instruction ***function***.
+
+Elle doit être suivie :
+
+-   d’une paire de parenthèses ⇒ pour indiquer les arguments
+
+-   d’une paire d’accolades ⇒ pour indiquer les instructions
+
+`ma_fonction <- function(...){ ...}`
+
+## Comment écrire une fonction ? 2/2 {.backgroundTitre}
+
+Quatre éléments principaux pour créer une fonction :
+
+-   → le nom de la fonction
+
+-   → les arguments éventuels de la fonction
+
+-   → un bloc d’instructions pour constituer le corps de la fonction
+
+-   → le résultat éventuel de la fonction
+
+![](img/clipboard-function2.png){fig-align="center"}
+
+## Comment appeler une fonction ? {.backgroundTitre}
+
+Les parenthèses servent à indiquer les paramètres de la fonction (ou
+arguments)
+
+*ce sont ceux qui seront passés lors de l’appel de la fonction*
+
+-   → on peut prévoir autant d’arguments que l’on souhaite
+
+-   → les arguments doivent être nommés pour être ensuite utilisés dans
+    la fonction
+
+[**Exemple :**]{.underline} `eff_milliers <- function(x, digits)`
+
+## Comment écrire une fonction ? 3/4 {.backgroundTitre}
+
+Quatre éléments principaux pour créer une fonction :
+
+-   → le nom de la fonction
+
+-   → les arguments éventuels de la fonction
+
+-   → un bloc d’instructions pour constituer le corps de la fonction
+
+-   → le résultat éventuel de la fonction
+
+## Comment écrire une fonction ? 4/4 {.backgroundTitre}
+
+Les accolades comprennent une série d’instructions R
+
+-   c’est le corps de la fonction, le code qui sera exécuté à l’appel de
+    la fonction
+
+→ on utilise dans le corps de la fonction les arguments renseignés dans
+les parenthèses
+
+→ la fonction renvoie un résultat via l’instruction **return()**
+
+## Comment écrire une fonction ? 5/4 {.backgroundTitre}
+
+L’instruction return() arrête l’exécution de la fonction
+
+⇒ tout ce qui est après le return() ne sera pas exécuté
+
+![](img/clipboard-ecrire5.png)
+
+## Comment écrire une fonction ? 6/4 {.backgroundTitre}
+
+![](img/clipboard-ecrire6.png) **return()** est obligatoire
+
+-   une fonction **peut ne rien renvoyer** : certaines fonctions
+    accomplissent une action mais ne renvoient rien (affichage de
+    graphique, export de fichier par exemple)
+
+-   sans précision, la fonction **renvoie le dernier objet appelé** dans
+    le bloc d’instructions
+
+-   pour un code plus sûr et plus clair, il est recommandé d'utiliser
+    **systématiquement** la fonction return() afin de préciser l'élément
+    à renvoyer, quitte à ce que ce soit l’élément NULL
+
+## Comment écrire une fonction ? 7/4 {.backgroundTitre}
