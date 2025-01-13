@@ -1,0 +1,11 @@
+# Ecrire ses propres fonctions {.backgroundTitre}
+
+## Quand écrire une fonction ? {.backgroundTitre}
+
++:-----------------------------------------------------------------:+:-----------------------------------------------------------------------------------------------------:+
+| ![](img/clipboard-R-function.png)                                 | R dispose de nombreuses fonctions de base et le chargement de packages permet d'en importer d'autres. |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+| R permet également à l'utilisateur d'écrire ses propres fonctions | ![](img/clipboard-outil.png)                                                                          |
+|                                                                   |                                                                                                       |
+| =\> C'est l'équivalent des macro dans SAS                         |                                                                                                       |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
