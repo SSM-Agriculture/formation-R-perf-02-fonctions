@@ -1,0 +1,16 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Portée des variables {.backgroundTitre}
+
+## Portée des variables {.backgroundTitre}
+
+Dans une fonction, l’environnement est temporaire
+
+⇒ les éléments créés dans la fonction **n’existent pas dans
+l’environnement global**
+
+![](img/clipboard-portee1.png){fig-align="center"}

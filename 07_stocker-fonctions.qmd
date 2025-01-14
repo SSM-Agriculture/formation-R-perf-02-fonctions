@@ -1,0 +1,22 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Stocker ses fonctions {.backgroundTitre}
+
+## Stocker ses fonctions {.backgroundTitre}
+
+Pour conserver ses fonctions, on peut les enregistrer dans un script à
+part
+
+⇒ on utilise ensuite la commande **source()** pour faire appel à ce
+script depuis un autre script :
+
+![](img/clipboard-stocker1.png){fig-align="center"}
+
+Pour les experts, il est possible de créer un **package** pour
+encapsuler ses fonctions
+
+![](img/clipboard-exo2-3.png){fig-align="center"}

@@ -80,3 +80,11 @@ RStudio Workbench.
 {{< include 04_valeur-par-defaut.qmd >}}
 
 {{< include 05_execution-conditionnelle.qmd >}}
+
+{{< include 06_portees-variables.qmd >}}
+
+{{< include 07_stocker-fonctions.qmd >}}
+
+{{< include 08_documenter-fonctions.qmd >}}
+
+{{< include 09_programmer-tydyverse.qmd >}}

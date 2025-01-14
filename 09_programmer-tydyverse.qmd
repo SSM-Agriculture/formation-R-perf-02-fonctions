@@ -1,0 +1,59 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Programmer avec le TIDYVERSE {.backgroundTitre}
+
+## Passer des noms de colonnes en paramètres {.backgroundTitre}
+
+Les fonctions du **{tidyverse}** sont compliquées à utiliser dans nos
+propres fonctions
+
+⇒ lorsque les variables des tableaux de données utilisées dans le corps
+de la fonction ne sont pas saisies directement mais proviennent d’un
+paramètre, cela génère des erreurs
+
+![](img/clipboard-programmer1.png){fig-align="center"}
+
+## Passer des noms de colonnes en paramètres {.backgroundTitre}
+
+l’opérateur `{{ }}`*(curly curly)* permet de forcer l’évaluation du
+paramètre
+
+⇒ lorsque le paramètre de la fonction est une variable à laquelle on
+souhaite accéder, on entoure les utilisations du paramètre par des
+doubles accolades
+
+![](img/clipboard-programmer2.png)
+
+## Nommer de nouvelles colonnes {.backgroundTitre}
+
+Pour créer de nouvelles colonnes à partir d’un argument,
+
+on utilise les deux opérateurs **{{ }}** et **:=** *(walrus operator)*
+
+⇒ on peut placer le texte que l’on souhaite comme nouveau nom de colonne
+
+(ex : `‘‘{{var_moyenne}}_moy’’`)
+
+![](img/clipboard-programmer3.png)
+
+## Utiliser des chaines de caractères {.backgroundTitre}
+
+Lorsque l’argument est passé sous forme de chaînes de caractères, on ne
+peut pas utiliser l’opérateur **{{ }}**
+
+⇒ le pronom [.data]{.red} permet d’accéder aux colonnes du tableau à
+partir de leur nom sous forme de chaîne de caractères
+
+![](img/clipboard-programmer4.png)
+
+## Récapitulatif {.backgroundTitre}
+
+![](img/clipboard-programmer5.png){fig-align="center"}
+
+<https://juba.github.io/tidyverse/19-programmer-tidyverse.html#aide-m%C3%A9moire>
+
+![](img/clipboard-programmer6.png){fig-align="center"}

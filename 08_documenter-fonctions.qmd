@@ -1,0 +1,21 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Documenter ses fonctions {.backgroundTitre}
+
+## Documenter ses fonctions {.backgroundTitre}
+
+Pour réutiliser ou partager ses fonctions, il est important de les
+documenter
+
+→ le package {roxygen} aide à générer une documentation efficace
+
+dans le corps de la fonction :
+
+cliquer sur -\> Code -\> Insert Roxygen Skeleton pour faire apparaître
+un bloc de documentation à remplir
+
+![](img/clipboard-documenter.png)
