@@ -1,0 +1,92 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Itération de fonctions {.backgroundTitre .unnumbered}
+
+## Présentation {.backgroundTitre .unnumbered}
+
+Intérêt d’une fonction = pouvoir être utilisée plusieurs fois
+
+Utilisation de la fonction **across()**
+
+-   ⇒ permet d’appliquer, dans un environnement dplyr, un même
+    traitement à plusieurs variables d’une même table
+
+Utilisation du package **{purrr}**
+
+-   ⇒ regroupe des outils pour appliquer la même fonction à plusieurs
+    éléments d’une liste ou d’un vecteur
+
+![](img/clipboard-purr.png){fig-align="center"}
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+Fonction **`across()`**
+
+![](img/clipboard-across.png){fig-align="center"}
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+![](img/clipboard-across1.png){fig-align="center"}
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+Objectif de `across()` ⇒ appliquer une même fonction à un ensemble de
+variables d’une table de données
+
+`across()` s’utilise à l’intérieur des fonctions **dplyr** comme mutate
+et summarise.
+
+La syntaxe générale est la suivante :
+
+![](img/clipboard-across2.png)
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+Pour désigner les variables à traiter, on utilise les mêmes « select
+helpers » que ceux utilisés dans la fonction select par exemple :
+
+![](img/clipboard-across3.png)
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+Le traitement à effectuer correspond à une fonction ⇒ on peut la
+renseigner de différentes façons :
+
+-   avec le nom de la fonction (sans parenthèse) = lorsque la fonction
+    n’a qu’un seul paramètre, qui est la variable à traiter
+
+`across(..., mean)` la fonction mean() est appliquée à l'ensemble des
+variables selectionnées
+
+-   avec \~ et .x :
+
+`across(..., ~ round(.x, digits =1))` chaque variable est arrondie à un
+chiffre après le virgule
+
+-   avec une fonction anonyme:
+
+    -   définie avec (x)
+
+    `across(..., \(x) round(x, digits =1))` chaque variable est arrondie
+    à un chiffre après le virgule
+
+    -   définie avec des paramètres
+
+    `across(..., function(nb) { nb/100})` chaque variable est divisée
+    par 100
+
+## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+
+![](img/clipboard-across4.png)
+
+## Utilisation de ACROSS : Exemples avec mutate {.backgroundTitre .unnumbered}
+
+![](img/clipboard-across5.png)
+
+## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+
+![](img/clipboard-across6.png)
