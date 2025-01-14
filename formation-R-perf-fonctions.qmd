@@ -76,3 +76,7 @@ RStudio Workbench.
 {{< include 02_comment-ecrire-une-fonction.qmd >}}
 
 {{< include 03_comment-utiliser-une-fonction.qmd >}}
+
+{{< include 04_valeur-par-defaut.qmd >}}
+
+{{< include 05_execution-conditionnelle.qmd >}}

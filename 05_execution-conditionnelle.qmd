@@ -1,0 +1,39 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Exécution conditionnelle {.backgroundTitre}
+
+## Exécution conditionnelle {.backgroundTitre}
+
+Dans une fonction, on liste une série d’instructions que la fonction va
+effectuer
+
+Pour des actions un peu plus complexes, on peut utiliser des conditions,
+en utilisant les mots-clés **if** et **else**
+
+Par exemple, on va pouvoir exécuter certaines instructions selon la
+valeur prise par les **arguments de la fonction**.
+
+![](img/clipboard-exec0.png){fig-align="center" width="295"}
+
+## Exécution conditionnelle {.backgroundTitre}
+
++--------------------------------------+:----------------------------:+
+| ⇒ **if** permet de n’exécuter du     | ![](img/clipboard-exec1.png) |
+| code que lorsqu’une condition est    |                              |
+| remplie                              |                              |
+|                                      |                              |
+| ⇒ **else** permet d’exécuter des     |                              |
+| instructions lorsque la condition    |                              |
+| donnée au if n’est pas remplie       |                              |
+|                                      |                              |
+| ⇒ on peut enchaîner plusieurs blocs  |                              |
+| d’instructions *if /* else *if /     |                              |
+| else*                                |                              |
+|                                      |                              |
+| ⇒ *else* s’utilise après *if*, mais  |                              |
+| n’est pas obligatoire                |                              |
++--------------------------------------+------------------------------+

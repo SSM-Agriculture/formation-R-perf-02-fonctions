@@ -1,0 +1,42 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Valeurs par défaut {.backgroundTitre}
+
+## Valeurs par défaut {.backgroundTitre}
+
+Au moment de la définition d’une fonction, on peut indiquer une valeur
+par défaut qui sera prise par l’argument si l’utilisateur n’en fournit
+pas
+
+![](img/clipboard-valeur-defaut1.png){fig-align="center"}
+
+## Valeurs par défaut {.backgroundTitre}
+
+⇒ lorsqu’un paramètre a une valeur par défaut, il devient **facultatif**
+: on peut utiliser la fonction sans préciser de valeur pour ce
+paramètre.
+
+![](img/clipboard-valeur-defaut2.png){fig-align="center"}
+
+## Valeurs par défaut {.backgroundTitre}
+
+L’ordre et le nommage des paramètres ont une importance :
+
+-   Si on les nomme, on peut les appeler dans l’ordre que l’on veut
+
+![](img/clipboard-valeur-defaut3.png){fig-align="center"}
+
+-   Sinon, il faut les appeler dans l’ordre prévu lors de la définition
+    de la fonction
+
+![](img/clipboard-valeur-defaut4.png){fig-align="center"}
+
+Lors de la définition d’une fonction, il vaut donc mieux placer les
+arguments avec une valeur par défaut en dernier : de cette façon, il est
+plus facile de ne pas les nommer.
+
+![](img/clipboard-exo1-e.png){fig-align="center"}

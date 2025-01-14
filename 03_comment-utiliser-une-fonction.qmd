@@ -4,4 +4,18 @@ editor:
     wrap: 72
 ---
 
-#  {.backgroundTitre}
+# Comment utiliser une fonction ? {.backgroundTitre}
+
+## Comment utiliser une fonction ? {.backgroundTitre}
+
+Une fonction personnelle s’utilise comme n’importe quelle autre fonction
+de R
+
+Notamment, on récupère la sortie de la fonction en **affectant le
+résultat à un objet**
+
+-   ⇒ sinon il n’y aura que l’affichage dans la console
+
+*Dans la console :*
+
+![](img/clipboard-utiliser1.png)
