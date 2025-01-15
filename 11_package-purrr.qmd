@@ -1,0 +1,158 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Package {PURRR} {.backgroundTitre .unnumbered}
+
+## Package {PURRR} {.backgroundTitre .unnumbered}
+
+![](img/clipboard-purrr1.png){fig-align="center"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+Objectif de **map()** ⇒ appliquer une même fonction à l’ensemble des
+éléments d’un vecteur ou d’une liste
+
+![](img/clipboard-purrr2.png){fig-align="center"}
+
+map() s’utilise sur un vecteur ou une liste d’objets. La syntaxe
+générale est la suivante :
+
+`map( vecteur/liste à traiter, traitement)`
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+Le traitement correspond à **la fonction** à appliquer
+
+⇒ on peut la renseigner de différentes manières :
+
+-   1\) avec le nom de la fonction (sans parenthèse) = lorsque la
+    fonction n’a qu’un seul paramètre, qui est l’élément à traiter
+
+![](img/clipboard-purrr3.png){fig-align="center"}
+
+-   2\) avec une fonction anonyme
+
+    -   définie avec un \~ : les éléments successifs de la liste sont
+        alors identifiés avec le mot clé .x
+
+    ![](img/clipboard-purrr4.png)
+
+    -   définie avec des paramètres
+
+![](img/clipboard-purrr5.png){fig-align="center" width="534"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+![](img/clipboard-purrr6.png){fig-align="center"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+![](img/clipboard-purrr7.png){fig-align="center"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+Les écritures suivantes sont équivalentes :
+
+-   Nom de la fonction sans parenthèse
+
+    ![](img/clipboard-purrr8.png)
+
+-   Définition d’une fonction avec \~
+
+![](img/clipboard-purrr9.png){fig-align="center"}
+
+-   Définition d’une fonction anonyme
+
+    -   avec le raccourci (x)
+
+![](img/clipboard-purrr10.png){fig-align="center"}
+
+-   avec le mot clé function()
+
+![](img/clipboard-purrr11.png){fig-align="center"}
+
+![](img/clipboard-exo6.png){fig-align="right"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+Il n’est pas nécessaire de créer une fonction en temps que telle : on
+peut le faire directement à l’intérieur de map()
+
+![](img/clipboard-purrr12.png){fig-align="center"}
+
+## {PURRR} : Itérer sur un vecteur OU une liste {.backgroundTitre .unnumbered}
+
+Possibilité d’ajouter des arguments supplémentaires à la fonction à
+appliquer
+
+![](img/clipboard-purrr13.png){fig-align="center"}
+
+![](img/clipboard-purrr14.png){fig-align="center"}
+
+## {PURRR} : Itérer sur deux éléments {.backgroundTitre .unnumbered}
+
+Objectif de **map2()** = appliquer une même fonction sur chacun des
+couples d’éléments de deux listes ou vecteurs
+
+la fonction à appliquer peut être renseignée avec une fonction anonyme
+
+-   définie avec un \~ : les éléments successifs de la liste sont alors
+    identifiés avec les mots clé .x et .y
+
+-   définie avec des paramètres
+
+![](img/clipboard-purrr15.png){fig-align="center"}
+
+## {PURRR} : Généralisation {.backgroundTitre .unnumbered}
+
+Généralisation avec la fonction **pmap()** = permet d’appliquer une même
+fonction sur chacun des p-uplets d’éléments des différentes listes ou
+vecteurs
+
+![](img/clipboard-purrr16.png){fig-align="center"}
+
+## {PURRR} : Manipuler des listes {.backgroundTitre .unnumbered}
+
+Les fonctions **map, map2** et **pmap** renvoient des listes
+
+→ on peut retrouver des data.frame plus faciles à manipuler en utilisant
+**bind_rows()**, ou la fonction **reduce()**
+
+⇒ **bind_rows()** permet de concaténer une liste de tables
+
+![](img/clipboard-purrr17.png){fig-align="center"}
+
+![](img/clipboard-purrr18.png){fig-align="center"}
+
+## {PURRR} : Manipuler des listes {.backgroundTitre .unnumbered}
+
+⇒ **reduce()** applique une fonction de façon récursive à chaque élément
+d’une liste ou d’un vecteur
+
+![](img/clipboard-purrr19.png){fig-align="center"}
+
+![](img/clipboard-purrr20.png){fig-align="center"}
+
+## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+
+Pour les fonctions qui ne renvoient aucun résultat, on utilise la
+fonction **walk(**)
+
+⇒ même fonctionnement que pour les fonctions map, mais spécifiques pour
+les fonctions à effets de bord
+
+*Exemples :* impression dans la console, affichage de graphiques, export
+de données…
+
+-   Extension à walk2() et pwalk()
+
+## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+
+![](img/clipboard-purrr20.png){fig-align="center"}
+
+## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+
+![](img/clipboard-purrr21.png){fig-align="center"}

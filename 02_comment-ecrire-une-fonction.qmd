@@ -4,9 +4,9 @@ editor:
     wrap: 72
 ---
 
-# Comment écrire une fonction ? {.backgroundTitre}
+# Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Une fonction exécute une série d’instructions, à partir d’éventuels
 objets donnés en entrée.
@@ -23,7 +23,7 @@ Elle doit être suivie :
 
 `ma_fonction <- function(...){ ...}`
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Quatre éléments principaux pour créer une fonction :
 
@@ -37,7 +37,7 @@ Quatre éléments principaux pour créer une fonction :
 
 ![](img/clipboard-function2.png){fig-align="center"}
 
-## Comment appeler une fonction ? {.backgroundTitre}
+## Comment appeler une fonction ? {.backgroundTitre .unnumbered}
 
 Les parenthèses servent à indiquer les paramètres de la fonction (ou
 arguments)
@@ -51,7 +51,7 @@ arguments)
 
 [**Exemple :**]{.underline} `eff_milliers <- function(x, digits)`
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Les accolades comprennent une série d’instructions R
 
@@ -63,7 +63,7 @@ les parenthèses
 
 → la fonction renvoie un résultat via l’instruction **return()**
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 L’instruction return() arrête l’exécution de la fonction
 
@@ -71,7 +71,7 @@ L’instruction return() arrête l’exécution de la fonction
 
 ![](img/clipboard-ecrire5.png)
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 |                                |                                      |
 |--------------------------------|--------------------------------------|
@@ -88,7 +88,7 @@ L’instruction return() arrête l’exécution de la fonction
     **systématiquement** la fonction return() afin de préciser l'élément
     à renvoyer, quitte à ce que ce soit l’élément NULL
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Une fonction est un objet de type *function* – elle apparaît dans
 l’environnement global dans la catégorie ***Functions***
@@ -99,10 +99,10 @@ R traite les fonctions définies par l’utilisateur de la même façon que
 les autres
 
 |  |  |
-|---------------|-----------------------------------------------------|
+|------------------|------------------------------------------------------|
 | ![](img/clipboard-Attention.png) | [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red} |
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Identifier et écrire une fonction dans la pratique :
 
@@ -110,7 +110,7 @@ Code initial :
 
 ![](img/clipboard-ecrire8.png)
 
-## Comment écrire une fonction ? {.backgroundTitre}
+## Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Identifier et écrire une fonction dans la pratique :
 

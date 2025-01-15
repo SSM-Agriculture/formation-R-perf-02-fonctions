@@ -55,7 +55,25 @@ disposition des agents sur la plateforme interne Cerise basée sur
 RStudio Workbench.
 :::
 
-# Chapitre 01 : Ecrire ses propres fonctions {.unnumbered}
+## Chapitre 01 : Ecrire ses propres fonctions {.unnumbered}
+
++----------------------------------+----------------------------------+
+| -   Quand écrire une fonction ?  | -   Documenter ses fonctions     |
+|                                  |                                  |
+| -   Comment écrire une fonction  | -   Programmer avec le tidyverse |
+|     ?                            |                                  |
+|                                  | -   Passer des colonnes en       |
+| -   Comment utiliser une         |     paramètres                   |
+|     fonction ?                   |                                  |
+|                                  | -   Nommer de nouvelles colonnes |
+| -   Valeurs par défaut           |                                  |
+|                                  | -   Utiliser des chaînes de      |
+| -   Exécution conditionnelle     |     caractères                   |
+|                                  |                                  |
+| -   Portée des variables         | -   Récapitulatif                |
+|                                  |                                  |
+| -   Stocker ses fonctions        |                                  |
++----------------------------------+----------------------------------+
 
 {{< include 01_quand-ecrire-une-fonction.qmd >}}
 
@@ -75,9 +93,50 @@ RStudio Workbench.
 
 {{< include 09_programmer-tydyverse.qmd >}}
 
-# Chapitre 02 : Itération de fonctions {.unnumbered}
+## Chapitre 02 : Itération de fonctions {.unnumbered}
 
-{{< include 10_presentation.qmd >}}
+-   Itération de fonctions : présentation
 
+-   Utilisation de across
 
-# Chapitre 03 : Annexes : Pour aller plus loin {.unnumbered}
+-   Utilisation de across : Exemple avec mutate
+
+-   Utilisation de across : Exemple avec summarise
+
+-   Package purrr
+
+-   {purrr} : Itérer sur un vecteur ou une liste
+
+-   {purrr} : Itérer sur deux éléments
+
+-   {purrr} : Généralisation
+
+-   {purrr} : Manipuler des listes
+
+-   {purrr} : Fonctions à effets de bord
+
+{{< include 10_package-across.qmd >}}
+
+{{< include 11_package-purrr.qmd >}}
+
+## Chapitre 03 : Annexes : Pour aller plus loin {.unnumbered}
+
+-   Passer un nombre indéfini de paramètres
+
+-   Retourner plusieurs objets dans une fonction
+
+-   Utiliser plusieurs return dans une fonction
+
+-   Utilisation de across : règle de renommage
+
+-   {purrr} : Contrôler le format de sortie
+
+-   {purrr} : Nommer les éléments d’une liste
+
+-   {purrr} : modifier le comportement d’une fonction
+
+{{< include 12_chapitre03.qmd >}}
+
+# Chapitre 04 : Liens utiles  {.unnumbered}
+
+{{< include 13_liens.qmd >}}

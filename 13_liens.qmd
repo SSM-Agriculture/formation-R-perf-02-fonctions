@@ -1,0 +1,44 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Liens utiles {.backgroundTitre .unnumbered}
+
+## Ecriture de fonctions {.backgroundTitre .unnumbered}
+
+-   Ecriture de fonctions :
+
+<https://juba.github.io/tidyverse/14-fonctions.html>
+<https://juba.github.io/tidyverse/17-if-boucles.html>
+
+-   BONUS ! gestion des erreurs :
+
+<https://thinkr.fr/controle-et-gestion-des-erreurs-dans-r/>
+
+-   Programmer avec le tidyverse :
+
+<https://juba.github.io/tidyverse/19-programmer-tidyverse.html>
+
+<https://thinkr.fr/comment-creer-des-fonctions-dans-le-tidyverse-avec-la-tidyeval-et-le-stash-stash/>
+
+## Itérations de fonctions {.backgroundTitre .unnumbered}
+
+-   Utilisation de across() :
+
+<https://juba.github.io/tidyverse/15-dplyr-avance.html#sec-across>
+
+<https://www.icem7.fr/r/across-plus-puissant-flexible-quil-ny-parait/>
+
+-   Introduction à purrr :
+
+<https://dcl-prog.stanford.edu/iteration.html>
+
+<https://thinkr.fr/code-ronronne-purrr/>
+
+<https://speakerdeck.com/jennybc/purrr-workshop?slide=91>
+
+-   Aides mémoire :
+
+<https://rstudio.com/resources/cheatsheets/>

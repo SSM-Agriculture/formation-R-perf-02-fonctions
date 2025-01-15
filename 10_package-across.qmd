@@ -81,12 +81,16 @@ chiffre après le virgule
 
 ## Utilisation de ACROSS {.backgroundTitre .unnumbered}
 
-![](img/clipboard-across4.png)
+![](img/clipboard-across4.png){fig-align="center"}
 
 ## Utilisation de ACROSS : Exemples avec mutate {.backgroundTitre .unnumbered}
 
-![](img/clipboard-across5.png)
+![](img/clipboard-across5.png){fig-align="center"}
 
 ## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
 
-![](img/clipboard-across6.png)
+![](img/clipboard-across6.png){fig-align="center"}
+
+## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+
+![](img/clipboard-across7.png){fig-align="center"}
