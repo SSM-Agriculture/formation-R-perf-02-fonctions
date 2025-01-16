@@ -136,7 +136,7 @@ d’une liste ou d’un vecteur
 
 ![](img/clipboard-purrr20.png){fig-align="center"}
 
-## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+## {PURRR} : Fonctions à effets de bord {.backgroundTitre .unnumbered}
 
 Pour les fonctions qui ne renvoient aucun résultat, on utilise la
 fonction **walk(**)
@@ -149,10 +149,10 @@ de données…
 
 -   Extension à walk2() et pwalk()
 
-## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+## {PURRR} : Fonctions à effets de bord {.backgroundTitre .unnumbered}
 
 ![](img/clipboard-purrr20.png){fig-align="center"}
 
-## {PURRR} : Fonctions à effets de bord  {.backgroundTitre .unnumbered}
+## {PURRR} : Fonctions à effets de bord {.backgroundTitre .unnumbered}
 
 ![](img/clipboard-purrr21.png){fig-align="center"}

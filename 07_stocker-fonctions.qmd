@@ -4,9 +4,9 @@ editor:
     wrap: 72
 ---
 
-# Stocker ses fonctions {.backgroundTitre}
+# Stocker ses fonctions {.backgroundTitre .unnumbered}
 
-## Stocker ses fonctions {.backgroundTitre}
+## Stocker ses fonctions {.backgroundTitre .unnumbered}
 
 Pour conserver ses fonctions, on peut les enregistrer dans un script à
 part

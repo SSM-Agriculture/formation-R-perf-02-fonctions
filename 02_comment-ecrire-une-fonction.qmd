@@ -99,7 +99,7 @@ R traite les fonctions définies par l’utilisateur de la même façon que
 les autres
 
 |  |  |
-|------------------|------------------------------------------------------|
+|----|----|
 | ![](img/clipboard-Attention.png) | [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red} |
 
 ## Comment écrire une fonction ? {.backgroundTitre .unnumbered}

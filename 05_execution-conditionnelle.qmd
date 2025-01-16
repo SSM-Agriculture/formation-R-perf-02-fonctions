@@ -4,9 +4,9 @@ editor:
     wrap: 72
 ---
 
-# Exécution conditionnelle {.backgroundTitre}
+# Exécution conditionnelle {.backgroundTitre .unnumbered}
 
-## Exécution conditionnelle {.backgroundTitre}
+## Exécution conditionnelle {.backgroundTitre .unnumbered}
 
 Dans une fonction, on liste une série d’instructions que la fonction va
 effectuer
@@ -19,21 +19,21 @@ valeur prise par les **arguments de la fonction**.
 
 ![](img/clipboard-exec0.png){fig-align="center" width="295"}
 
-## Exécution conditionnelle {.backgroundTitre}
+## Exécution conditionnelle {.backgroundTitre .unnumbered}
 
-+--------------------------------------+:----------------------------:+
-| ⇒ **if** permet de n’exécuter du     | ![](img/clipboard-exec1.png) |
-| code que lorsqu’une condition est    |                              |
-| remplie                              |                              |
-|                                      |                              |
-| ⇒ **else** permet d’exécuter des     |                              |
-| instructions lorsque la condition    |                              |
-| donnée au if n’est pas remplie       |                              |
-|                                      |                              |
-| ⇒ on peut enchaîner plusieurs blocs  |                              |
-| d’instructions *if /* else *if /     |                              |
-| else*                                |                              |
-|                                      |                              |
-| ⇒ *else* s’utilise après *if*, mais  |                              |
-| n’est pas obligatoire                |                              |
-+--------------------------------------+------------------------------+
++-------------------------------------+:---------------------------:+
+| ⇒ **if** permet de n’exécuter du    | !                           |
+| code que lorsqu’une condition est   | [](img/clipboard-exec1.png) |
+| remplie                             |                             |
+|                                     |                             |
+| ⇒ **else** permet d’exécuter des    |                             |
+| instructions lorsque la condition   |                             |
+| donnée au if n’est pas remplie      |                             |
+|                                     |                             |
+| ⇒ on peut enchaîner plusieurs blocs |                             |
+| d’instructions *if /* else *if /    |                             |
+| else*                               |                             |
+|                                     |                             |
+| ⇒ *else* s’utilise après *if*, mais |                             |
+| n’est pas obligatoire               |                             |
++-------------------------------------+-----------------------------+

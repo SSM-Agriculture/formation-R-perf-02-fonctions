@@ -4,9 +4,9 @@ editor:
     wrap: 72
 ---
 
-# Portée des variables {.backgroundTitre}
+# Portée des variables {.backgroundTitre .unnumbered}
 
-## Portée des variables {.backgroundTitre}
+## Portée des variables {.backgroundTitre .unnumbered}
 
 Dans une fonction, l’environnement est temporaire
 

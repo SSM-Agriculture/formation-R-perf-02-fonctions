@@ -137,6 +137,6 @@ RStudio Workbench.
 
 {{< include 12_chapitre03.qmd >}}
 
-# Chapitre 04 : Liens utiles  {.unnumbered}
+# Chapitre 04 : Liens utiles {.unnumbered}
 
 {{< include 13_liens.qmd >}}

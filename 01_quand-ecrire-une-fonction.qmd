@@ -1,6 +1,6 @@
 # Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
-## Quand écrire une fonction ? {.backgroundTitre}
+## Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
 +:-----------------------------------------------------------------:+:-----------------------------------------------------------------------------------------------------:+
 | ![](img/clipboard-R-function.png)                                 | R dispose de nombreuses fonctions de base et le chargement de packages permet d'en importer d'autres. |
@@ -10,7 +10,7 @@
 | =\> C'est l'équivalent des macro dans SAS                         |                                                                                                       |
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
 
-## Quand écrire une fonction ? {.backgroundTitre}
+## Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
 **Règle courante :** dès qu’on a répété le même code plus de deux fois, ça vaut le coup de l’encapsuler dans une fonction
 
@@ -24,13 +24,13 @@
 
     -   → permet de réutiliser le même code dans plusieurs scripts
 
-## Quand écrire une fonction ? {.backgroundTitre}
+## Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Table de données pour les exemples :
 
 ![](img/clipboard-ecrire3-4.png)
 
-## Quand écrire une fonction ? {.backgroundTitre}
+## Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
 Plutôt que de recopier le même code pour chaque département, on peut écrire une fonction
 

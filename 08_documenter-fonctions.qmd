@@ -4,9 +4,9 @@ editor:
     wrap: 72
 ---
 
-# Documenter ses fonctions {.backgroundTitre}
+# Documenter ses fonctions {.backgroundTitre .unnumbered}
 
-## Documenter ses fonctions {.backgroundTitre}
+## Documenter ses fonctions {.backgroundTitre .unnumbered}
 
 Pour réutiliser ou partager ses fonctions, il est important de les
 documenter
