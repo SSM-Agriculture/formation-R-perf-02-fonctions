@@ -2,27 +2,35 @@
 
 ## Quand écrire une fonction ?
 
-+:-----------------------------------------------------------------:+:-----------------------------------------------------------------------------------------------------:+
-| ![](img/clipboard-R-function.png)                                 | R dispose de nombreuses fonctions de base et le chargement de packages permet d'en importer d'autres. |
-+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
-| R permet également à l'utilisateur d'écrire ses propres fonctions | ![](img/clipboard-outil.png)                                                                          |
-|                                                                   |                                                                                                       |
-| =\> C'est l'équivalent des macro dans SAS                         |                                                                                                       |
-+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+<br>
+
+R dispose de nombreuses fonctions de base et le chargement de packages permet d'en importer d'autres.
+
+![](img/clipboard-R-function.png){fig-align="center"}
+
+<br>
+
+R permet également à l'utilisateur d'écrire ses propres fonctions.  
+
+=\> C'est l'équivalent des macro dans SAS
+
+![](img/clipboard-outil.png){fig-align="center"}
 
 ## Quand écrire une fonction ? 
 
-**Règle courante :** dès qu’on a répété le même code plus de deux fois, ça vaut le coup de l’encapsuler dans une fonction
+<br>
+
+[Règle courante : dès qu’on a répété le même code plus de deux fois, ça vaut le coup de l’encapsuler dans une fonction]{.Terre_battue1}
 
 -   **Avantages :**
 
-    -   → évite les erreurs de copié-collé
+    -   Évite les erreurs de copié-collé
 
-    -   → facilite la lecture du code si la fonction a un nom adapté
+    -   Facilite la lecture du code si la fonction a un nom adapté
 
-    -   → facilite la mise à jour du code et la correction des erreurs (on corrige une seule fois dans la fonction et non à plein d’endroits du code)
+    -   Facilite la mise à jour du code et la correction des erreurs (on corrige une seule fois dans la fonction et non à plein d’endroits du code)
 
-    -   → permet de réutiliser le même code dans plusieurs scripts
+    -   Permet de réutiliser le même code dans plusieurs scripts
 
 ## Quand écrire une fonction ?
 
