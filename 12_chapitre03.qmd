@@ -36,20 +36,20 @@ une liste**
 Il est possible de mettre plusieurs return dans le bloc d’instructions
 d’une fonction.
 
--   =\> Dans ce cas, l’exécution s’arrête au premier return rencontré.
+=\> Dans ce cas, l’exécution s’arrête au premier return rencontré.
 
 ![](img/clipboard-chap3-4.png){fig-align="center"}
 
-## Utilisation de Across: Règle de renommage
+## Utilisation de `across()` : Règle de renommage
 
 Une règle de renommage des variables issues de across peut être donnée
 via l’argument *.names*.
 
 On lui donne une chaîne de caractère concaténée où :
 
--   {.col} désigne la variable à traiter
+-   `{.col}` désigne la variable à traiter
 
--   {.fn} la fonction de traitement.
+-   `{.fn}` la fonction de traitement.
 
 Par exemple : .names = "{.col}\_{.fn}"
 
@@ -64,20 +64,29 @@ Par exemple : .names = "{.col}\_{.fn}"
 -   Dans un summarise avec plusieurs agrégats, suffixe la fonction
     d’agrégation au nom des variables d’origine
 
-## Utilisation de Across: Règle de renommage
+## Utilisation de `across()` Règle de renommage
 
 ![](img/clipboard-chap3-5.png){fig-align="center"}
 
-## {PURRR}: Contrôler le format de sortie
+## {purrr}: Contrôler le format de sortie
 
+
+::: columns
+::: {.column width="50%"}
 Possibilité de contrôler le format de sortie avec les dérivés de la
 fonction map
 
+:::
+
+::: {.column width="50%"}
 ![](img/clipboard-chap3-6.png){fig-align="center"}
+:::
+:::
+
 
 ![](img/clipboard-chap3-7.png){fig-align="center"}
 
-## {PURRR}: Nommer les éléments d'une liste
+## {purrr}: Nommer les éléments d'une liste
 
 Retour sur le calcul des évolutions départementales des populations par
 composition familiale :
@@ -94,22 +103,26 @@ d’une liste en entrée :
 
 ![](img/clipboard-chap3-10.png){fig-align="center"}
 
-## {PURRR}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction
+
+<br>
 
 Les fonctions de {purrr} ne renvoient un résultat que s’il n’y a aucune
 erreur dans l’ensemble… sinon, l’exécution est arrêtée et aucun résultat
 n’est retourné, même si l’erreur est à la fin !
 
+<br>
+
 ![](img/clipboard-chap3-11.png){fig-align="center"}
 
-## {PURRR}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction
 
 **safely()** ⇒ retourne le résultat et le message d’erreur de la
 fonction
 
 ![](img/clipboard-chap3-12.png){fig-align="center"}
 
-## {PURRR}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction
 
 **possibly(**) ⇒ retourne le résultat ou une valeur par défaut en cas
 d’erreur
