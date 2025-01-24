@@ -16,4 +16,6 @@ documenter
 cliquer sur -\> Code -\> Insert Roxygen Skeleton pour faire apparaître
 un bloc de documentation à remplir
 
+<br>
+
 ![](img/clipboard-documenter.png)
