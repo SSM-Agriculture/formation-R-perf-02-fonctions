@@ -25,47 +25,56 @@ Elle doit être suivie :
 
 ## Comment écrire une fonction ?
 
+<br>
+
 Quatre éléments principaux pour créer une fonction :
 
--   → le nom de la fonction
+-   Le nom de la fonction
 
--   → les arguments éventuels de la fonction
+-   Les arguments éventuels de la fonction
 
--   → un bloc d’instructions pour constituer le corps de la fonction
+-   Un bloc d’instructions pour constituer le corps de la fonction
 
--   → le résultat éventuel de la fonction
+-   Le résultat éventuel de la fonction
 
 ![](img/clipboard-function2.png){fig-align="center"}
 
 ## Comment appeler une fonction ?
 
-Les parenthèses servent à indiquer les paramètres de la fonction (ou
-arguments)
+<br>
 
-*ce sont ceux qui seront passés lors de l’appel de la fonction*
+[Les parenthèses servent à indiquer les paramètres de la fonction (ou
+arguments)]{.Terre_battue1}
 
--   → on peut prévoir autant d’arguments que l’on souhaite
+> Ce sont ceux qui seront passés lors de l’appel de la fonction
 
--   → les arguments doivent être nommés pour être ensuite utilisés dans
+-   On peut prévoir autant d’arguments que l’on souhaite
+
+-   Les arguments doivent être nommés pour être ensuite utilisés dans
     la fonction
+
+<br>
 
 [**Exemple :**]{.underline} `eff_milliers <- function(x, digits)`
 
 ## Comment écrire une fonction ?
 
+<br>
+
 Les accolades comprennent une série d’instructions R
 
--   c’est le corps de la fonction, le code qui sera exécuté à l’appel de
-    la fonction
+>c’est le corps de la fonction, le code qui sera exécuté à l’appel de la fonction
 
-→ on utilise dans le corps de la fonction les arguments renseignés dans
+<br>
+
+- On utilise dans le corps de la fonction les arguments renseignés dans
 les parenthèses
 
-→ la fonction renvoie un résultat via l’instruction **return()**
+- La fonction renvoie un résultat via l’instruction **return()**
 
 ## Comment écrire une fonction ?
 
-L’instruction return() arrête l’exécution de la fonction
+L’instruction `return()` arrête l’exécution de la fonction
 
 ⇒ tout ce qui est après le return() ne sera pas exécuté
 
@@ -73,9 +82,10 @@ L’instruction return() arrête l’exécution de la fonction
 
 ## Comment écrire une fonction ?
 
-|                                |                                      |
-|--------------------------------|--------------------------------------|
-| ![](img/clipboard-ecrire6.png) | [**return()** est obligatoire]{.red} |
+<br>
+
+[**return()** est obligatoire]{.red}
+
 
 -   une fonction **peut ne rien renvoyer** : certaines fonctions
     accomplissent une action mais ne renvoient rien (affichage de
@@ -96,11 +106,11 @@ l’environnement global dans la catégorie ***Functions***
 ![](img/clipboard-ecrire7.png){fig-align="center"}
 
 R traite les fonctions définies par l’utilisateur de la même façon que
-les autres
+les autres.  
 
-|  |  |
-|----|----|
-| ![](img/clipboard-Attention.png) | [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red} |
+
+ [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red}
+
 
 ## Comment écrire une fonction ?
 
