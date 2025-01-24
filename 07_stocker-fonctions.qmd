@@ -6,7 +6,7 @@ editor:
 
 # Stocker ses fonctions {.backgroundTitre .unnumbered}
 
-## Stocker ses fonctions {.backgroundTitre .unnumbered}
+## Stocker ses fonctions
 
 Pour conserver ses fonctions, on peut les enregistrer dans un script à
 part

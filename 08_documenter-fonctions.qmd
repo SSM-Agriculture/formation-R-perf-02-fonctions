@@ -6,7 +6,7 @@ editor:
 
 # Documenter ses fonctions {.backgroundTitre .unnumbered}
 
-## Documenter ses fonctions {.backgroundTitre .unnumbered}
+## Documenter ses fonctions
 
 Pour réutiliser ou partager ses fonctions, il est important de les
 documenter

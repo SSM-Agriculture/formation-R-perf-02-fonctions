@@ -6,7 +6,7 @@ editor:
 
 # Itération de fonctions {.backgroundTitre .unnumbered}
 
-## Présentation {.backgroundTitre .unnumbered}
+## Présentation
 
 Intérêt d’une fonction = pouvoir être utilisée plusieurs fois
 
@@ -22,17 +22,17 @@ Utilisation du package **{purrr}**
 
 ![](img/clipboard-purr.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 Fonction **`across()`**
 
 ![](img/clipboard-across.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 ![](img/clipboard-across1.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 Objectif de `across()` ⇒ appliquer une même fonction à un ensemble de
 variables d’une table de données
@@ -44,14 +44,14 @@ La syntaxe générale est la suivante :
 
 ![](img/clipboard-across2.png)
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 Pour désigner les variables à traiter, on utilise les mêmes « select
 helpers » que ceux utilisés dans la fonction select par exemple :
 
 ![](img/clipboard-across3.png)
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 Le traitement à effectuer correspond à une fonction ⇒ on peut la
 renseigner de différentes façons :
@@ -79,18 +79,18 @@ chiffre après le virgule
     `across(..., function(nb) { nb/100})` chaque variable est divisée
     par 100
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS
 
 ![](img/clipboard-across4.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec mutate {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS : Exemples avec mutate
 
 ![](img/clipboard-across5.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS : Exemples avec summarise
 
 ![](img/clipboard-across6.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+## Utilisation de ACROSS : Exemples avec summarise
 
 ![](img/clipboard-across7.png){fig-align="center"}

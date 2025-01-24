@@ -6,7 +6,7 @@ editor:
 
 # Valeurs par défaut {.backgroundTitre .unnumbered}
 
-## Valeurs par défaut {.backgroundTitre .unnumbered}
+## Valeurs par défaut
 
 Au moment de la définition d’une fonction, on peut indiquer une valeur
 par défaut qui sera prise par l’argument si l’utilisateur n’en fournit
@@ -14,7 +14,7 @@ pas
 
 ![](img/clipboard-valeur-defaut1.png){fig-align="center"}
 
-## Valeurs par défaut {.backgroundTitre .unnumbered}
+## Valeurs par défaut
 
 ⇒ lorsqu’un paramètre a une valeur par défaut, il devient **facultatif**
 
@@ -23,7 +23,7 @@ pas
 
 ![](img/clipboard-valeur-defaut2.png){fig-align="center"}
 
-## Valeurs par défaut {.backgroundTitre .unnumbered}
+## Valeurs par défaut
 
 L’ordre et le nommage des paramètres ont une importance :
 
