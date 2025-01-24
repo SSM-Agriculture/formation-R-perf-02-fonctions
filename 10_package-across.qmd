@@ -6,7 +6,7 @@ editor:
 
 # Itération de fonctions {.backgroundTitre .unnumbered}
 
-## Présentation
+## Présentation {.unnumbered}
 
 <br>
 
@@ -24,17 +24,17 @@ Utilisation du package `{purrr}`
 
 ![](img/clipboard-purr.png){fig-align="center"}
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 <br>
 
 ![](img/clipboard-across.png){fig-align="center"}
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 ![](img/clipboard-across1.png){fig-align="center"}
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 [Objectif de `across()` ⇒ appliquer une même fonction à un ensemble de
 variables d’une table de données]{.Terre_battue1}
@@ -45,14 +45,14 @@ La syntaxe générale est la suivante :
 
 ![](img/clipboard-across2.png)
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 Pour désigner les variables à traiter, on utilise les mêmes « select
 helpers » que ceux utilisés dans la fonction select par exemple :
 
 ![](img/clipboard-across3.png)
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 Le traitement à effectuer correspond à une fonction ⇒ on peut la
 renseigner de différentes façons :
@@ -76,18 +76,18 @@ renseigner de différentes façons :
 
 ![](img/clipboard-across_p4.png){fig-align="center"}
 
-## Utilisation de `across()`
+## Utilisation de `across()` {.unnumbered}
 
 ![](img/clipboard-across4.png){fig-align="center"}
 
-## Utilisation de `across()` : Exemples avec mutate
+## Utilisation de `across()` : Exemples avec mutate {.unnumbered}
 
 ![](img/clipboard-across5.png){fig-align="center"}
 
-## Utilisation de `across()` : Exemples avec summarise
+## Utilisation de `across()` : Exemples avec summarise {.unnumbered}
 
 ![](img/clipboard-across6.png){fig-align="center"}
 
-## Utilisation de `across()` : Exemples avec summarise
+## Utilisation de `across()` : Exemples avec summarise {.unnumbered}
 
 ![](img/clipboard-across7.png){fig-align="center"}

@@ -6,7 +6,7 @@ editor:
 
 # Stocker ses fonctions {.backgroundTitre .unnumbered}
 
-## Stocker ses fonctions
+## Stocker ses fonctions {.unnumbered}
 
 <br>
 

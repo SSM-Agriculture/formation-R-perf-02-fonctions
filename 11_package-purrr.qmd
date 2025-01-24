@@ -6,11 +6,11 @@ editor:
 
 # Package [purrr} {.backgroundTitre .unnumbered}
 
-## Package [purrr}
+## Package [purrr} {.unnumbered}
 
 ![](img/clipboard-purrr1.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 Objectif de **map()** ⇒ appliquer une même fonction à l’ensemble des
 éléments d’un vecteur ou d’une liste  
@@ -31,7 +31,7 @@ générale est la suivante :
 :::
 
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 [Le traitement correspond à **la fonction** à appliquer]{.Terre_battue1}
 
@@ -53,21 +53,21 @@ générale est la suivante :
 
 ![](img/clipboard-purrr5.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 ![](img/clipboard-purrr6.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 ![](img/clipboard-purrr7.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 Les écritures suivantes sont équivalentes :
 
 ![](img/clipboard-purrr_resume.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 Il n’est pas nécessaire de créer une fonction en temps que telle : on
 peut le faire directement à l’intérieur de map()
@@ -76,7 +76,7 @@ peut le faire directement à l’intérieur de map()
 
 ![](img/clipboard-purrr12.png){fig-align="center"}
 
-## [purrr} : Itérer sur un vecteur OU une liste
+## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 Possibilité d’ajouter des arguments supplémentaires à la fonction à
 appliquer
@@ -85,7 +85,7 @@ appliquer
 
 ![](img/clipboard-purrr14.png){fig-align="center"}
 
-## [purrr} : Itérer sur deux éléments
+## [purrr} : Itérer sur deux éléments {.unnumbered}
 
 Objectif de **map2()** = appliquer une même fonction sur chacun des
 couples d’éléments de deux listes ou vecteurs
@@ -99,7 +99,7 @@ la fonction à appliquer peut être renseignée avec une fonction anonyme
 
 ![](img/clipboard-purrr15.png){fig-align="center"}
 
-## [purrr} : Généralisation
+## [purrr} : Généralisation {.unnumbered}
 
 Généralisation avec la fonction **pmap()** = permet d’appliquer une même
 fonction sur chacun des p-uplets d’éléments des différentes listes ou
@@ -107,7 +107,7 @@ vecteurs
 
 ![](img/clipboard-purrr16.png){fig-align="center"}
 
-## [purrr} : Manipuler des listes
+## [purrr} : Manipuler des listes {.unnumbered}
 
 Les fonctions **map, map2** et **pmap** renvoient des listes
 
@@ -128,7 +128,7 @@ Les fonctions **map, map2** et **pmap** renvoient des listes
 :::
 
 
-## [purrr} : Manipuler des listes
+## [purrr} : Manipuler des listes {.unnumbered}
 
 
 
@@ -146,7 +146,7 @@ d’une liste ou d’un vecteur
 
 ![](img/clipboard-purrr20.png){fig-align="center"}
 
-## [purrr} : Fonctions à effets de bord
+## [purrr} : Fonctions à effets de bord {.unnumbered}
 
 <br>
 
@@ -163,10 +163,10 @@ de données…
 
 -   Extension à `walk2()` et `pwalk()`
 
-## [purrr} : Fonctions à effets de bord
+## [purrr} : Fonctions à effets de bord {.unnumbered}
 
 ![](img/clipboard-purrr20.png){fig-align="center"}
 
-## [purrr} : Fonctions à effets de bord
+## [purrr} : Fonctions à effets de bord {.unnumbered}
 
 ![](img/clipboard-purrr21.png){fig-align="center"}

@@ -1,6 +1,6 @@
 # Quand écrire une fonction ? {.backgroundTitre .unnumbered}
 
-## Quand écrire une fonction ?
+## Quand écrire une fonction ? {.unnumbered}
 
 <br>
 
@@ -16,7 +16,7 @@ R permet également à l'utilisateur d'écrire ses propres fonctions.
 
 ![](img/clipboard-outil.png){fig-align="center"}
 
-## Quand écrire une fonction ? 
+## Quand écrire une fonction ? {.unnumbered}
 
 <br>
 
@@ -32,13 +32,13 @@ R permet également à l'utilisateur d'écrire ses propres fonctions.
 
     -   Permet de réutiliser le même code dans plusieurs scripts
 
-## Quand écrire une fonction ?
+## Quand écrire une fonction ? {.unnumbered}
 
 Table de données pour les exemples :
 
 ![](img/clipboard-ecrire3-4.png)
 
-## Quand écrire une fonction ?
+## Quand écrire une fonction ? {.unnumbered}
 
 Plutôt que de recopier le même code pour chaque département, on peut écrire une fonction
 

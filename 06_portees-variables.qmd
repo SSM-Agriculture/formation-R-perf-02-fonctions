@@ -6,7 +6,7 @@ editor:
 
 # Portée des variables {.backgroundTitre .unnumbered}
 
-## Portée des variables
+## Portée des variables {.unnumbered}
 
 Dans une fonction, l’environnement est temporaire
 

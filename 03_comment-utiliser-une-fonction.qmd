@@ -6,7 +6,7 @@ editor:
 
 # Comment utiliser une fonction ? {.backgroundTitre .unnumbered}
 
-## Comment utiliser une fonction ?
+## Comment utiliser une fonction ? {.unnumbered}
 
 Une fonction personnelle s’utilise comme n’importe quelle autre fonction
 de R

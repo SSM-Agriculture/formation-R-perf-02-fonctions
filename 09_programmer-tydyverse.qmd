@@ -6,7 +6,7 @@ editor:
 
 # Programmer avec le Tidyverse {.backgroundTitre .unnumbered}
 
-## Passer des noms de colonnes en paramètres
+## Passer des noms de colonnes en paramètres {.unnumbered}
 
 Les fonctions du **{tidyverse}** sont compliquées à utiliser dans nos
 propres fonctions
@@ -19,7 +19,7 @@ paramètre, cela génère des erreurs
 
 ![](img/clipboard-programmer1.png){fig-align="center"}
 
-## Passer des noms de colonnes en paramètres
+## Passer des noms de colonnes en paramètres {.unnumbered}
 
 l’opérateur **{{ }}** *(curly curly)* permet de forcer l’évaluation du
 paramètre
@@ -32,7 +32,7 @@ doubles accolades
 
 ![](img/clipboard-programmer2.png)
 
-## Nommer de nouvelles colonnes
+## Nommer de nouvelles colonnes {.unnumbered}
 
 Pour créer de nouvelles colonnes à partir d’un argument,
 
@@ -46,7 +46,7 @@ Pour créer de nouvelles colonnes à partir d’un argument,
 
 ![](img/clipboard-programmer3.png)
 
-## Utiliser des chaines de caractères
+## Utiliser des chaines de caractères {.unnumbered}
 
 Lorsque **l’argument est passé sous forme de chaînes de caractères**, on ne
 peut pas utiliser l’opérateur **{{ }}**
@@ -58,7 +58,7 @@ partir de leur nom sous forme de chaîne de caractères
 
 ![](img/clipboard-programmer4.png)
 
-## Récapitulatif (source [ici](https://juba.github.io/tidyverse/19-programmer-tidyverse.html))
+## Récapitulatif (source [ici](https://juba.github.io/tidyverse/19-programmer-tidyverse.html)) {.unnumbered}
 
 ![](img/clipboard-programmer5.png){fig-align="center"}
 

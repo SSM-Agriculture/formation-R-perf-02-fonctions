@@ -6,7 +6,7 @@ editor:
 
 # Liens utiles {.backgroundTitre .unnumbered}
 
-## Ecriture de fonctions {.backgroundTitre .unnumbered}
+## Ecriture de fonctions {unnumbered}
 
 -   Ecriture de fonctions :
 
@@ -23,7 +23,7 @@ editor:
 
 <https://thinkr.fr/comment-creer-des-fonctions-dans-le-tidyverse-avec-la-tidyeval-et-le-stash-stash/>
 
-## Itérations de fonctions {.backgroundTitre .unnumbered}
+## Itérations de fonctions {.unnumbered}
 
 -   Utilisation de across() :
 

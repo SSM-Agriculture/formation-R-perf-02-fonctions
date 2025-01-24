@@ -6,7 +6,7 @@ editor:
 
 # Annexes: Pour aller plus loin {.backgroundTitre .unnumbered}
 
-## Passer un nombre indéfini de paramètres
+## Passer un nombre indéfini de paramètres {.unnumbered}
 
 Il est possible de prévoir un nombre indéfini de paramètres lors de
 l’élaboration d’une fonction avec `…` .
@@ -16,14 +16,14 @@ le corps de la fonction créée.
 
 ![](img/clipboard-chap3-1.png){fig-align="center"}
 
-## Passer un nombre indéfini de paramètres
+## Passer un nombre indéfini de paramètres {.unnumbered}
 
 Les `…` permettent également de prévoir que l’utilisateur puisse passer
 un nombre indéfini de paramètres
 
 ![](img/clipboard-chap3-2.png){fig-align="center"}
 
-## Retourner plusieurs objets dans une fonction
+## Retourner plusieurs objets dans une fonction {.unnumbered}
 
 L’instruction **return()** ne peut renvoyer qu’un seul objet ⇒ pour
 renvoyer plusieurs éléments dans une fonction, il faut les **placer dans
@@ -31,7 +31,7 @@ une liste**
 
 ![](img/clipboard-chap3-3.png){fig-align="center"}
 
-## Utiliser plusieurs Return dans une fonction
+## Utiliser plusieurs Return dans une fonction {.unnumbered}
 
 Il est possible de mettre plusieurs return dans le bloc d’instructions
 d’une fonction.
@@ -40,7 +40,7 @@ d’une fonction.
 
 ![](img/clipboard-chap3-4.png){fig-align="center"}
 
-## Utilisation de `across()` : Règle de renommage
+## Utilisation de `across()` : Règle de renommage {.unnumbered}
 
 Une règle de renommage des variables issues de across peut être donnée
 via l’argument *.names*.
@@ -64,11 +64,11 @@ Par exemple : .names = "{.col}\_{.fn}"
 -   Dans un summarise avec plusieurs agrégats, suffixe la fonction
     d’agrégation au nom des variables d’origine
 
-## Utilisation de `across()` Règle de renommage
+## Utilisation de `across()` Règle de renommage {.unnumbered}
 
 ![](img/clipboard-chap3-5.png){fig-align="center"}
 
-## {purrr}: Contrôler le format de sortie
+## {purrr}: Contrôler le format de sortie {.unnumbered}
 
 
 ::: columns
@@ -86,7 +86,7 @@ fonction map
 
 ![](img/clipboard-chap3-7.png){fig-align="center"}
 
-## {purrr}: Nommer les éléments d'une liste
+## {purrr}: Nommer les éléments d'une liste {.unnumbered}
 
 Retour sur le calcul des évolutions départementales des populations par
 composition familiale :
@@ -103,7 +103,7 @@ d’une liste en entrée :
 
 ![](img/clipboard-chap3-10.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
 
 <br>
 
@@ -115,14 +115,14 @@ n’est retourné, même si l’erreur est à la fin !
 
 ![](img/clipboard-chap3-11.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
 
 **safely()** ⇒ retourne le résultat et le message d’erreur de la
 fonction
 
 ![](img/clipboard-chap3-12.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction
+## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
 
 **possibly(**) ⇒ retourne le résultat ou une valeur par défaut en cas
 d’erreur

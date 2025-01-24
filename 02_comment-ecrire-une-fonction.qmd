@@ -6,7 +6,7 @@ editor:
 
 # Comment écrire une fonction ? {.backgroundTitre .unnumbered}
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 Une fonction exécute une série d’instructions, à partir d’éventuels
 objets donnés en entrée.
@@ -23,7 +23,7 @@ Elle doit être suivie :
 
 `ma_fonction <- function(...){ ...}`
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 <br>
 
@@ -39,7 +39,7 @@ Quatre éléments principaux pour créer une fonction :
 
 ![](img/clipboard-function2.png){fig-align="center"}
 
-## Comment appeler une fonction ?
+## Comment appeler une fonction ? {.unnumbered}
 
 <br>
 
@@ -57,7 +57,7 @@ arguments)]{.Terre_battue1}
 
 [**Exemple :**]{.underline} `eff_milliers <- function(x, digits)`
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 <br>
 
@@ -72,7 +72,7 @@ les parenthèses
 
 - La fonction renvoie un résultat via l’instruction **return()**
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 L’instruction `return()` arrête l’exécution de la fonction
 
@@ -80,7 +80,7 @@ L’instruction `return()` arrête l’exécution de la fonction
 
 ![](img/clipboard-ecrire5.png)
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 <br>
 
@@ -98,7 +98,7 @@ L’instruction `return()` arrête l’exécution de la fonction
     **systématiquement** la fonction return() afin de préciser l'élément
     à renvoyer, quitte à ce que ce soit l’élément NULL
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 Une fonction est un objet de type *function* – elle apparaît dans
 l’environnement global dans la catégorie ***Functions***
@@ -112,7 +112,7 @@ les autres.
  [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red}
 
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 Identifier et écrire une fonction dans la pratique :
 
@@ -120,7 +120,7 @@ Code initial :
 
 ![](img/clipboard-ecrire8.png)
 
-## Comment écrire une fonction ?
+## Comment écrire une fonction ? {.unnumbered}
 
 Identifier et écrire une fonction dans la pratique :
 
