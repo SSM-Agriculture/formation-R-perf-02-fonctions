@@ -14,7 +14,7 @@ de R
 Notamment, on récupère la sortie de la fonction en **affectant le
 résultat à un objet**
 
--   ⇒ sinon il n’y aura que l’affichage dans la console
+⇒ sinon il n’y aura que l’affichage dans la console
 
 *Dans la console :*
 
