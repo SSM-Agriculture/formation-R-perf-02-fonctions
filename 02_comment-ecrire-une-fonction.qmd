@@ -46,7 +46,7 @@ Quatre éléments principaux pour créer une fonction :
 [Les parenthèses servent à indiquer les paramètres de la fonction (ou
 arguments)]{.Terre_battue1}
 
-> Ce sont ceux qui seront passés lors de l’appel de la fonction
+*Ce sont ceux qui seront passés lors de l’appel de la fonction*
 
 -   On peut prévoir autant d’arguments que l’on souhaite
 
@@ -63,7 +63,7 @@ arguments)]{.Terre_battue1}
 
 Les accolades comprennent une série d’instructions R
 
->c’est le corps de la fonction, le code qui sera exécuté à l’appel de la fonction
+*c’est le corps de la fonction, le code qui sera exécuté à l’appel de la fonction*
 
 <br>
 
