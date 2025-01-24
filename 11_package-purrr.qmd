@@ -17,8 +17,6 @@ Objectif de **map()** ⇒ appliquer une même fonction à l’ensemble des
 
 <br>
 
-![](img/clipboard-across_p4.png){fig-align="center"}
-
 ::: columns
 ::: {.column width="50%"}
 ![](img/clipboard-purrr2.png){fig-align="center"}
@@ -27,6 +25,8 @@ Objectif de **map()** ⇒ appliquer une même fonction à l’ensemble des
 ::: {.column width="50%"}
 map() s’utilise sur un vecteur ou une liste d’objets. La syntaxe
 générale est la suivante :
+
+![](img/clipboard-purrr_0.png){fig-align="center"}
 :::
 :::
 
@@ -51,7 +51,7 @@ générale est la suivante :
 
     -   définie avec des paramètres
 
-![](img/clipboard-purrr5.png){fig-align="center" width="534"}
+![](img/clipboard-purrr5.png){fig-align="center"}
 
 ## [purrr} : Itérer sur un vecteur OU une liste
 
