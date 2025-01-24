@@ -6,7 +6,9 @@ editor:
 
 # Exécution conditionnelle {.backgroundTitre .unnumbered}
 
-## Exécution conditionnelle {.backgroundTitre .unnumbered}
+## Exécution conditionnelle
+
+<br>
 
 Dans une fonction, on liste une série d’instructions que la fonction va
 effectuer
@@ -17,23 +19,29 @@ en utilisant les mots-clés **if** et **else**
 Par exemple, on va pouvoir exécuter certaines instructions selon la
 valeur prise par les **arguments de la fonction**.
 
-![](img/clipboard-exec0.png){fig-align="center" width="295"}
+<br>
 
-## Exécution conditionnelle {.backgroundTitre .unnumbered}
+![](img/clipboard-exec0.png){fig-align="center"}
 
-+-------------------------------------+:---------------------------:+
-| ⇒ **if** permet de n’exécuter du    | !                           |
-| code que lorsqu’une condition est   | [](img/clipboard-exec1.png) |
-| remplie                             |                             |
-|                                     |                             |
-| ⇒ **else** permet d’exécuter des    |                             |
-| instructions lorsque la condition   |                             |
-| donnée au if n’est pas remplie      |                             |
-|                                     |                             |
-| ⇒ on peut enchaîner plusieurs blocs |                             |
-| d’instructions *if /* else *if /    |                             |
-| else*                               |                             |
-|                                     |                             |
-| ⇒ *else* s’utilise après *if*, mais |                             |
-| n’est pas obligatoire               |                             |
-+-------------------------------------+-----------------------------+
+## Exécution conditionnelle
+
+
+::: columns
+::: {.column width="50%"}
+⇒ `if` permet de n’exécuter du code que lorsqu’une condition est remplie  
+
+<br>
+⇒ `else` permet d’exécuter des instructions lorsque la condition donnée au if n’est pas remplie  
+
+<br>
+⇒ on peut enchaîner plusieurs blocs d’instructions `if` / `else if` / `else`  
+
+<br>
+⇒ `else` s’utilise après `if`, mais n’est pas obligatoire  
+
+:::
+
+::: {.column width="50%"}
+[](img/clipboard-exec1.png)
+:::
+:::

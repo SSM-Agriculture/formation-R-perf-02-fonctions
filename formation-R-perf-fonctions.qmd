@@ -1,11 +1,11 @@
 ---
 title: "Formation-R-perfectionnement"
-subtitle: "Module Ecrire des fonctions avec R"
+subtitle: "Module Écrire des fonctions avec R"
 date: today
 date-format: "DD/MM/YYYY"
 author: "SSP/DEMESIS"
 description: |
-  Support de formation R-perfectionnement : Module Ecrire des fonctions avec R 
+  Support de formation R-perfectionnement : Module Écrire des fonctions avec R 
 slide-tone: false # for blind readers
 chalkboard: false # press the B key to toggle chalkboard
 transition: slide
@@ -42,7 +42,7 @@ les copiés-collés.
 
 Ce module se décompose en plusieurs chapitres :
 
--   01 - Ecrire ses propres fonctions
+-   01 - Écrire ses propres fonctions
 
 -   02 - Itération de fonctions
 
@@ -55,7 +55,7 @@ disposition des agents sur la plateforme interne Cerise basée sur
 RStudio Workbench.
 :::
 
-## Chapitre 01 : Ecrire ses propres fonctions {.unnumbered}
+## Chapitre 01 : Écrire ses propres fonctions {.unnumbered}
 
 +----------------------------------+----------------------------------+
 | -   Quand écrire une fonction ?  | -   Documenter ses fonctions     |

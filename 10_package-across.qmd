@@ -6,52 +6,53 @@ editor:
 
 # Itération de fonctions {.backgroundTitre .unnumbered}
 
-## Présentation {.backgroundTitre .unnumbered}
+## Présentation
+
+<br>
 
 Intérêt d’une fonction = pouvoir être utilisée plusieurs fois
 
-Utilisation de la fonction **across()**
+Utilisation de la fonction `across()`
 
--   ⇒ permet d’appliquer, dans un environnement dplyr, un même
+-   Permet d’appliquer, dans un environnement dplyr, un même
     traitement à plusieurs variables d’une même table
 
-Utilisation du package **{purrr}**
+Utilisation du package `{purrr}`
 
--   ⇒ regroupe des outils pour appliquer la même fonction à plusieurs
+-   Regroupe des outils pour appliquer la même fonction à plusieurs
     éléments d’une liste ou d’un vecteur
 
 ![](img/clipboard-purr.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
-Fonction **`across()`**
+<br>
 
 ![](img/clipboard-across.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
 ![](img/clipboard-across1.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
-Objectif de `across()` ⇒ appliquer une même fonction à un ensemble de
-variables d’une table de données
+[Objectif de `across()` ⇒ appliquer une même fonction à un ensemble de
+variables d’une table de données]{.Terre_battue1}
 
-`across()` s’utilise à l’intérieur des fonctions **dplyr** comme mutate
-et summarise.
+`across()` s’utilise à l’intérieur des fonctions **dplyr** comme `mutate()` et `summarise()`.
 
 La syntaxe générale est la suivante :
 
 ![](img/clipboard-across2.png)
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
 Pour désigner les variables à traiter, on utilise les mêmes « select
 helpers » que ceux utilisés dans la fonction select par exemple :
 
 ![](img/clipboard-across3.png)
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
 Le traitement à effectuer correspond à une fonction ⇒ on peut la
 renseigner de différentes façons :
@@ -59,38 +60,34 @@ renseigner de différentes façons :
 -   avec le nom de la fonction (sans parenthèse) = lorsque la fonction
     n’a qu’un seul paramètre, qui est la variable à traiter
 
-`across(..., mean)` la fonction mean() est appliquée à l'ensemble des
-variables selectionnées
+![](img/clipboard-across_p1.png){fig-align="center"}
 
 -   avec \~ et .x :
 
-`across(..., ~ round(.x, digits =1))` chaque variable est arrondie à un
-chiffre après le virgule
+![](img/clipboard-across_p2.png){fig-align="center"}
 
 -   avec une fonction anonyme:
 
-    -   définie avec (x)
+-   définie avec (x)
 
-    `across(..., \(x) round(x, digits =1))` chaque variable est arrondie
-    à un chiffre après le virgule
+![](img/clipboard-across_p3.pNg){fig-align="center"}
 
-    -   définie avec des paramètres
+-   définie avec des paramètres
 
-    `across(..., function(nb) { nb/100})` chaque variable est divisée
-    par 100
+![](img/clipboard-across_p4.png){fig-align="center"}
 
-## Utilisation de ACROSS {.backgroundTitre .unnumbered}
+## Utilisation de `across()`
 
 ![](img/clipboard-across4.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec mutate {.backgroundTitre .unnumbered}
+## Utilisation de `across()` : Exemples avec mutate
 
 ![](img/clipboard-across5.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+## Utilisation de `across()` : Exemples avec summarise
 
 ![](img/clipboard-across6.png){fig-align="center"}
 
-## Utilisation de ACROSS : Exemples avec summarise {.backgroundTitre .unnumbered}
+## Utilisation de `across()` : Exemples avec summarise
 
 ![](img/clipboard-across7.png){fig-align="center"}
