@@ -10,7 +10,7 @@ editor:
 
 Au moment de la définition d’une fonction, on peut indiquer une valeur
 par défaut qui sera prise par l’argument si l’utilisateur n’en fournit
-pas
+pas.
 
 ![](img/clipboard-valeur-defaut1.png){fig-align="center"}
 
@@ -20,6 +20,8 @@ pas
 
 :   on peut utiliser la fonction sans préciser de valeur pour ce
     paramètre.
+    
+<br>
 
 ![](img/clipboard-valeur-defaut2.png){fig-align="center"}
 
