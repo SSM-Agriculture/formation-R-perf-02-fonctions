@@ -13,27 +13,36 @@ editor:
 ## [purrr} : Itérer sur un vecteur OU une liste
 
 Objectif de **map()** ⇒ appliquer une même fonction à l’ensemble des
-éléments d’un vecteur ou d’une liste
+éléments d’un vecteur ou d’une liste  
 
+<br>
+
+![](img/clipboard-across_p4.png){fig-align="center"}
+
+::: columns
+::: {.column width="50%"}
 ![](img/clipboard-purrr2.png){fig-align="center"}
+:::
 
+::: {.column width="50%"}
 map() s’utilise sur un vecteur ou une liste d’objets. La syntaxe
 générale est la suivante :
+:::
+:::
 
-`map( vecteur/liste à traiter, traitement)`
 
 ## [purrr} : Itérer sur un vecteur OU une liste
 
-Le traitement correspond à **la fonction** à appliquer
+[Le traitement correspond à **la fonction** à appliquer]{.Terre_battue1}
 
 ⇒ on peut la renseigner de différentes manières :
 
--   1\) avec le nom de la fonction (sans parenthèse) = lorsque la
+-   1\) **Avec le nom de la fonction (sans parenthèse)** = lorsque la
     fonction n’a qu’un seul paramètre, qui est l’élément à traiter
 
 ![](img/clipboard-purrr3.png){fig-align="center"}
 
--   2\) avec une fonction anonyme
+-   2\) **Avec une fonction anonyme**
 
     -   définie avec un \~ : les éléments successifs de la liste sont
         alors identifiés avec le mot clé .x
@@ -56,30 +65,14 @@ Le traitement correspond à **la fonction** à appliquer
 
 Les écritures suivantes sont équivalentes :
 
--   Nom de la fonction sans parenthèse
-
-    ![](img/clipboard-purrr8.png)
-
--   Définition d’une fonction avec \~
-
-![](img/clipboard-purrr9.png){fig-align="center"}
-
--   Définition d’une fonction anonyme
-
-    -   avec le raccourci (x)
-
-![](img/clipboard-purrr10.png){fig-align="center"}
-
--   avec le mot clé function()
-
-![](img/clipboard-purrr11.png){fig-align="center"}
-
-![](img/clipboard-exo6.png){fig-align="right"}
+![](img/clipboard-purrr_resume.png){fig-align="center"}
 
 ## [purrr} : Itérer sur un vecteur OU une liste
 
 Il n’est pas nécessaire de créer une fonction en temps que telle : on
 peut le faire directement à l’intérieur de map()
+
+<br>
 
 ![](img/clipboard-purrr12.png){fig-align="center"}
 
@@ -123,20 +116,39 @@ Les fonctions **map, map2** et **pmap** renvoient des listes
 
 ⇒ **bind_rows()** permet de concaténer une liste de tables
 
-![](img/clipboard-purrr17.png){fig-align="center"}
 
+::: columns
+::: {.column width="50%"}
+![](img/clipboard-purrr17.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
 ![](img/clipboard-purrr18.png){fig-align="center"}
+:::
+:::
+
 
 ## [purrr} : Manipuler des listes
 
+
+
+::: columns
+::: {.column width="70%"}
 ⇒ **reduce()** applique une fonction de façon récursive à chaque élément
 d’une liste ou d’un vecteur
+:::
 
+::: {.column width="30%"}
 ![](img/clipboard-purrr19.png){fig-align="center"}
+:::
+:::
+
 
 ![](img/clipboard-purrr20.png){fig-align="center"}
 
 ## [purrr} : Fonctions à effets de bord
+
+<br>
 
 Pour les fonctions qui ne renvoient aucun résultat, on utilise la
 fonction **walk(**)
@@ -144,10 +156,12 @@ fonction **walk(**)
 ⇒ même fonctionnement que pour les fonctions map, mais spécifiques pour
 les fonctions à effets de bord
 
+<br>
+
 *Exemples :* impression dans la console, affichage de graphiques, export
 de données…
 
--   Extension à walk2() et pwalk()
+-   Extension à `walk2()` et `pwalk()`
 
 ## [purrr} : Fonctions à effets de bord
 
