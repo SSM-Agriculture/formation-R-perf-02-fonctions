@@ -6,7 +6,7 @@ editor:
 
 # Liens utiles {.backgroundTitre .unnumbered}
 
-## Ecriture de fonctions {unnumbered}
+## Ecriture de fonctions {.unnumbered}
 
 -   Ecriture de fonctions :
 
