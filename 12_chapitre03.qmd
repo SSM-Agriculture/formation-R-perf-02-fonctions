@@ -98,8 +98,12 @@ nommés**. On ne peut accéder aux différents éléments que par index :
 
 ![](img/clipboard-chap3-9.png){fig-align="center"}
 
-La fonction set_names du package purrr permet de nommer les éléments
+## {purrr}: Nommer les éléments d'une liste {.unnumbered}
+
+La fonction `set_names()` du package purrr permet de nommer les éléments
 d’une liste en entrée :
+
+<br>
 
 ![](img/clipboard-chap3-10.png){fig-align="center"}
 
