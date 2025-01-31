@@ -33,9 +33,7 @@ générale est la suivante :
 
 ## [purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
-[Le traitement correspond à **la fonction** à appliquer]{.Terre_battue1}
-
-⇒ on peut la renseigner de différentes manières :
+[Le traitement correspond à **la fonction** à appliquer]{.Terre_battue1} ⇒ on peut la renseigner de différentes manières :
 
 -   1\) **Avec le nom de la fonction (sans parenthèse)** = lorsque la
     fonction n’a qu’un seul paramètre, qui est l’élément à traiter
