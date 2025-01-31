@@ -142,7 +142,7 @@ d’une liste ou d’un vecteur
 :::
 
 
-![](img/clipboard-purrr20.png){fig-align="center"}
+![](img/clipboard-purrr-reduce.png){fig-align="center"}
 
 ## [purrr} : Fonctions à effets de bord {.unnumbered}
 
