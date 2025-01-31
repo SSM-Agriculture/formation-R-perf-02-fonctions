@@ -52,7 +52,7 @@ helpers » que ceux utilisés dans la fonction select par exemple :
 
 ![](img/clipboard-across3.png)
 
-## Utilisation de `across()` {.unnumbered}
+## Utilisation de `across()` {.unnumbered} (1/2)
 
 Le traitement à effectuer correspond à une fonction ⇒ on peut la
 renseigner de différentes façons :
@@ -65,6 +65,8 @@ renseigner de différentes façons :
 -   avec \~ et .x :
 
 ![](img/clipboard-across_p2.png){fig-align="center"}
+
+## Utilisation de `across()` {.unnumbered} (2/2)
 
 -   avec une fonction anonyme:
 
