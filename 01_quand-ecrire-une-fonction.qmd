@@ -32,11 +32,6 @@ R permet également à l'utilisateur d'écrire ses propres fonctions.
 
     -   Permet de réutiliser le même code dans plusieurs scripts
 
-## Quand écrire une fonction ? {.unnumbered}
-
-Table de données pour les exemples :
-
-![](img/clipboard-ecrire3-4.png)
 
 ## Quand écrire une fonction ? {.unnumbered}
 
