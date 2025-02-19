@@ -48,7 +48,6 @@ jobs:
             libxtst6 \
             fonts-liberation \
             libappindicator3-1 \
-            libasound2-dev \
             libxss1
 
 
