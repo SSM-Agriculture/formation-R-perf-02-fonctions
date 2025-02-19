@@ -17,25 +17,6 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
-        
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        
-      - name: Install DeckTape
-        run: npm install -g decktape
-        
-      - name: Build pdf   
-        shell: bash
-        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf --no-sandboxname: Slides-Export
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    name: Generate PDF
-    steps:
-      - name: Git checkout
-        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -52,7 +33,6 @@ jobs:
           google-chrome-stable --no-sandbox --headless --disable-gpu --remote-debugging-port=9222 &
           sleep 5 # Attend un peu pour que Chrome démarre
           decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
-
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
