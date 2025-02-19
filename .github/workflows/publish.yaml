@@ -61,7 +61,7 @@ jobs:
 
       
       - name: Generate PDF with DeckTape
-        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
+        run: decktape reveal --chrome-arg=--no-sandbox formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
