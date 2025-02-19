@@ -24,9 +24,6 @@ jobs:
       - name: Install DeckTape
         run: npm install -g decktape
 
-      - name: Install dependencies
-        run: npm install
-                
       - name: Build pdf   
         shell: bash
         run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf -s 1920x1080
