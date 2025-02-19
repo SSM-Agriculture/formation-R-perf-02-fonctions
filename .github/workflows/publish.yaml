@@ -26,7 +26,7 @@ jobs:
 
       - name: Build pdf   
         shell: bash
-        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf -s 1920x1080 --no-sandbox
+        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
