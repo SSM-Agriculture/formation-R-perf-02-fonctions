@@ -24,6 +24,9 @@ jobs:
       - name: Install DeckTape
         run: npm install -g decktape
 
+      - name: Set environment variable for Chromium sandbox
+        run: echo "CHROME_PATH=--no-sandbox" >> $GITHUB_ENV
+        
       - name: Build pdf   
         shell: bash
         run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
