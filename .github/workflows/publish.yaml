@@ -29,7 +29,6 @@ jobs:
                 
       - name: Build pdf   
         shell: bash
-        run: decktape reveal [command] <url> <filename>
         run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf -s 1920x1080
       
       - name: Deploy
