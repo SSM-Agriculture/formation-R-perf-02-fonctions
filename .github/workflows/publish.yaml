@@ -1,7 +1,13 @@
-name: Slides-Export
 on:
-
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  release:
+    types: [published]
   workflow_dispatch:
+
+name: Slides-Export
 
 jobs:
   build:
@@ -12,10 +18,19 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v4
         
-      - run: npm install -g decktape
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        
+      - name: Install DeckTape
+        run: npm install -g decktape
+
+      - name: Install dependencies
+        run: npm install
                 
       - name: Build pdf   
-        run: decktape reveal index.html ./diaporama_pdf/Diaporama_module_fonctions.pdf -s 1920x1080
+        shell: bash
+        run: decktape reveal [command] <url> <filename>
+        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf -s 1920x1080
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
