@@ -36,7 +36,6 @@ jobs:
             libxcomposite1 \
             libxdamage1 \
             libxrandr2 \
-            libasound2 \
             libatk-bridge2.0-0 \
             libatk1.0-0 \
             libcups2 \
@@ -48,6 +47,7 @@ jobs:
             libxtst6 \
             fonts-liberation \
             libappindicator3-1 \
+            libasound2-dev \
             libxss1
 
 
