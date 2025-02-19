@@ -53,12 +53,13 @@ jobs:
             libharfbuzz0b
 
 
-      - name: Build pdf   
-        shell: bash
+      - name: Set environment variable for Puppeteer (no sandbox)
         run: |
-          google-chrome-stable --no-sandbox --headless --disable-gpu --remote-debugging-port=9222 &
-          sleep 5 # Attend un peu pour que Chrome démarre
-          decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
+          export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+          export PUPPETEER_EXECUTABLE_PATH=$(which google-chrome-stable)
+      
+      - name: Generate PDF with DeckTape
+        run: decktape reveal formation-R-perf-fonctions.qmd ./diaporama_pdf/Diaporama_module_fonctions.pdf
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
