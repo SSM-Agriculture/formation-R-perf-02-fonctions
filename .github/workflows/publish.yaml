@@ -38,7 +38,6 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          name: index-html
           path: '_site'
 
       - name: Deploy to GitHub Pages
@@ -46,24 +45,6 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           branch: gh-pages  # Spécifie la branche où déployer
-
-  build:
-    runs-on: ubuntu-latest
-    name: Generer PDF
-    needs: deploy
-    steps:
-      - uses: actions/checkout@v4
-      
-      - uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: pre-release
-          tinytex: false
-          
-      - name: Download index.html artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: index-html
-          path: _site
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
