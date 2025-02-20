@@ -33,7 +33,7 @@ jobs:
 
       - name: Convert Reveal.js to PDF
         shell: bash
-        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" index.html Diaporama_modules_fonctions.pdf
+        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" _site/index.html _site/Diaporama_modules_fonctions.pdf
         
       - uses: actions/configure-pages@v5
 
