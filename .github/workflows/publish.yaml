@@ -12,9 +12,8 @@ name: Slides-Export
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    name: Generate PDF
-      steps:
+    name: Generate PDF  # Correction : déplacé ici
+    steps:
       - uses: actions/checkout@v4
 
       - uses: quarto-dev/quarto-actions/setup@v2
