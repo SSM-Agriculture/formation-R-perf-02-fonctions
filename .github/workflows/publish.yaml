@@ -1,13 +1,16 @@
-on:
-  push:
-    branches: [main, master]
-  pull_request:
-    branches: [main, master]
-  release:
-    types: [published]
-  workflow_dispatch:
+name: Diaporama-deploiement-html-pdf
 
-name: Slides-Export
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  pull-requests: write
 
 jobs:
   build:
@@ -34,7 +37,7 @@ jobs:
         
       - name: Install rsync 📚
         run: |
-          apt-get update && apt-get install -y rsync
+          sudo apt-get update && apt-get install -y rsync
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4
