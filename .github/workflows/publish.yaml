@@ -31,11 +31,10 @@ jobs:
       - name: Convert Reveal.js to PDF
         shell: bash
         run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" index.html Diaporama_modules_fonctions.pdf
-          
-      - name: Rename HTML file to index.html
+        
+      - name: Install rsync 📚
         run: |
-          ls -al  # Ajouter un autre listing juste avant la commande mv pour voir si le fichier est bien là
-          mv ./formation-R-perf-fonctions.html ./index.html || echo "File not found, skipping rename"
+          apt-get update && apt-get install -y rsync
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4
