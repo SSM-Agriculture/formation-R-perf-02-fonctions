@@ -23,7 +23,7 @@ jobs:
       
       - name: Render Quarto Project
         shell: bash
-        run: quarto render formation-R-perf-fonctions.qmd
+        run: quarto render index.qmd
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
