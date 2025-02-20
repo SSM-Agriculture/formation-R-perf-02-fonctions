@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![render](https://github.com/SSM-Agriculture/formation-R-perf-02-fonctions/actions/workflows/publish.yaml/badge.svg)](https://github.com/SSM-Agriculture/formation-R-perf-02-fonctions/actions)
+<!-- badges: end -->
+
 # Formation R perfectionnement - Module 2 sur les rappels et les compléments à la formation initiation
 
 Support de présentation pour la formation dispensée au [MASA](https://agriculture.gouv.fr/).
