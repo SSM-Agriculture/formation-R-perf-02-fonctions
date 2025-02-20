@@ -39,10 +39,17 @@ jobs:
           git checkout gh-pages
           git rm -rf .  # Supprime les anciens fichiers sur la branche gh-pages
           
+      - name: Rename HTML file to index.html
+        run: |
+          mv formation-R-perf-fonctions.html index.html
+
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # Branche où publier (tu peux aussi utiliser 'main' ou 'master')
-          folder: ./        # Le dossier contenant le fichier HTML (ici, c'est la racine du projet)
-          file: formation-R-perf-fonctions.html  # Fichier à publier
+          branch: gh-pages  # Branche de destination
+          folder: ./        # Dossier à publier, ici la racine
+          target-folder: ./  # Dossier cible sur GitHub Pages
+          commit-message: "Deploy HTML file"
+          clean: true        # Pour nettoyer le répertoire de déploiement à chaque fois
+          dry-run: false     # Désactiver le mode dry-run pour tester un déploiement réel
 
