@@ -35,13 +35,6 @@ jobs:
       - name: Convert Reveal.js to PDF
         shell: bash
         run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" formation-R-perf-fonctions.html Diaporama_modules_fonctions.pdf
-
-        
-      - name: Clean up old deployment
-        run: |
-          git fetch origin
-          git checkout gh-pages
-          git rm -rf .  # Supprime les anciens fichiers sur la branche gh-pages
           
       - name: Rename HTML file to index.html
         run: |
