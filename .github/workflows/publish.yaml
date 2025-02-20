@@ -25,10 +25,6 @@ jobs:
         shell: bash
         run: quarto render formation-R-perf-fonctions.qmd
 
-      - name: List files after checkout
-        run: |
-          ls -al
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
 
@@ -49,5 +45,6 @@ jobs:
           target-folder: ./  # Dossier cible sur GitHub Pages
           commit-message: "Deploy HTML file"
           clean: true        # Pour nettoyer le répertoire de déploiement à chaque fois
-          dry-run: false     # Désactiver le mode dry-run pour tester un déploiement réel
+          # Paramètre personnalisé pour ignorer les fichiers manquants
+          rsync-options: '--ignore-missing-args'
 
