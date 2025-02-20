@@ -25,12 +25,16 @@ jobs:
         shell: bash
         run: quarto render formation-R-perf-fonctions.qmd
 
+      - name: List files after checkout
+        run: |
+          ls -al
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
 
       - name: Convert Reveal.js to PDF
         shell: bash
-        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" formation-R-perf-fonctions.html Diaporam_modules_fonctions.pdf
+        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" formation-R-perf-fonctions.html Diaporama_modules_fonctions.pdf
 
         
       - name: Clean up old deployment
