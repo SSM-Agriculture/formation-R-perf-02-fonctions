@@ -35,18 +35,11 @@ jobs:
         shell: bash
         run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" index.html Diaporama_modules_fonctions.pdf
         
-      - name: Install rsync 📚
-        run: |
-          sudo apt-get update && sudo apt-get install -y rsync
+      - uses: actions/configure-pages@v5
 
-      - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages  # Branche de destination
-          folder: ./        # Dossier à publier, ici la racine
-          target-folder: ./  # Dossier cible sur GitHub Pages
-          commit-message: "Deploy HTML file"
-          clean: true        # Pour nettoyer le répertoire de déploiement à chaque fois
-          # Paramètre personnalisé pour ignorer les fichiers manquants
-          rsync-options: '--ignore-missing-args'
+      - uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
