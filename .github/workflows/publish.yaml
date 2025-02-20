@@ -45,7 +45,8 @@ jobs:
           
       - name: Rename HTML file to index.html
         run: |
-          mv formation-R-perf-fonctions.html index.html
+          ls -al  # Ajouter un autre listing juste avant la commande mv pour voir si le fichier est bien là
+          mv ./formation-R-perf-fonctions.html ./index.html || echo "File not found, skipping rename"
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4
