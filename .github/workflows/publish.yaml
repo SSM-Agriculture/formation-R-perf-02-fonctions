@@ -34,6 +34,9 @@ jobs:
 
         
       - name: Build and Deploy
-        uses: quarto-dev/quarto-actions/publish@v2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target: gh-pages
+          branch: gh-pages  # Branche où publier (tu peux aussi utiliser 'main' ou 'master')
+          folder: ./        # Le dossier contenant le fichier HTML (ici, c'est la racine du projet)
+          file: formation-R-perf-fonctions.html  # Fichier à publier
+
