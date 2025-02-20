@@ -30,7 +30,8 @@ jobs:
 
       - name: Convert Reveal.js to PDF
         shell: bash
-        run: npx -y decktape reveal --size "1920x1080" formation-R-perf-fonctions.html Diaporam_modules_fonctions.pdf
+        run: npx -y decktape reveal --chrome-arg=--no-sandbox --size "1920x1080" formation-R-perf-fonctions.html Diaporam_modules_fonctions.pdf
+
         
       - name: Build and Deploy
         uses: quarto-dev/quarto-actions/publish@v2
