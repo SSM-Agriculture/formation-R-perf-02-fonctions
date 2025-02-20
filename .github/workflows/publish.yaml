@@ -29,7 +29,7 @@ jobs:
         with:
           version: pre-release
           tinytex: false
-
+          
       - name: Render Quarto Project
         shell: bash
         run: quarto render index.qmd --output-dir _site
@@ -38,6 +38,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: index-html
           path: '_site'
 
       - name: Deploy to GitHub Pages
@@ -46,24 +47,18 @@ jobs:
         with:
           branch: gh-pages  # Spécifie la branche où déployer
 
-      - name: Upload index.html as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: index-html
-          path: _site/index.html
-
   build:
     runs-on: ubuntu-latest
     name: Generer PDF
     needs: deploy
     steps:
       - uses: actions/checkout@v4
-
+      
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: pre-release
           tinytex: false
-
+          
       - name: Download index.html artifact
         uses: actions/download-artifact@v3
         with:
