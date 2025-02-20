@@ -23,14 +23,14 @@ jobs:
       
       - name: Render Quarto Project
         shell: bash
-        run: quarto render index.qmd
+        run: quarto render formation-R-perf-fonctions.qmd
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
 
       - name: Convert Reveal.js to PDF
         shell: bash
-        run: npx -y decktape reveal --size "1920x1080" index.html index.pdf
+        run: npx -y decktape reveal --size "1920x1080" formation-R-perf-fonctions.html Diaporam_modules_fonctions.pdf
         
       - name: Build and Deploy
         uses: quarto-dev/quarto-actions/publish@v2
