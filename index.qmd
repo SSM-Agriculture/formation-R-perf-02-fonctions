@@ -29,7 +29,7 @@ editor:
 
 Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
-[MASA](https://agreste.agriculture.gouv.fr/).
+[SSM Agriculture](https://agreste.agriculture.gouv.fr/).
 
 Ces formations s'adressent à des agents qui ont suivi **la formation R
 initialisation**.
@@ -48,7 +48,7 @@ Ce module se décompose en plusieurs chapitres :
 
 -   03 - Annexes
 
-Ce support est orienté pour être utile aux agents du SSM MASA et se
+Ce support est orienté pour être utile aux agents du SSM Agriculture et se
 concentre sur une utilisation de R via
 [RStudio](https://posit.co/download/rstudio-desktop/) qui est mise à
 disposition des agents sur la plateforme interne Cerise basée sur

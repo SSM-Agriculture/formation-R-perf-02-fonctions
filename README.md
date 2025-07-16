@@ -4,7 +4,7 @@
 
 # Formation R perfectionnement - Module 2 sur les rappels et les compléments à la formation initiation
 
-Support de présentation pour la formation dispensée au [MASA](https://agriculture.gouv.fr/).
+Support de présentation pour la formation dispensée au [SSM Agriculture](https://agriculture.gouv.fr/).
 
 > Pour un affichage optimisé de la présentation il est conseillé d'utiliser un navigateur basé sur Chromium (par exemple les navigateurs Edge, Chrome, Brave...).
 
