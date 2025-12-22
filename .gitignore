@@ -7,3 +7,5 @@
 /.quarto/
 /01_quand-ecrire-une-fonction_files/
 /.luarc.json
+
+**/*.quarto_ipynb
