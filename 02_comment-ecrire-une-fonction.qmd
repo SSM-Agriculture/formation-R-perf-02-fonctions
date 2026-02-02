@@ -50,8 +50,8 @@ arguments)]{.Terre_battue1}
 
 -   On peut prévoir autant d’arguments que l’on souhaite
 
--   Les arguments doivent être nommés pour être ensuite utilisés dans
-    la fonction
+-   Les arguments doivent être nommés pour être ensuite utilisés dans la
+    fonction
 
 <br>
 
@@ -63,14 +63,15 @@ arguments)]{.Terre_battue1}
 
 Les accolades comprennent une série d’instructions R
 
-*c’est le corps de la fonction, le code qui sera exécuté à l’appel de la fonction*
+*c’est le corps de la fonction, le code qui sera exécuté à l’appel de la
+fonction*
 
 <br>
 
-- On utilise dans le corps de la fonction les arguments renseignés dans
-les parenthèses
+-   On utilise dans le corps de la fonction les arguments renseignés
+    dans les parenthèses
 
-- La fonction renvoie un résultat via l’instruction **return()**
+-   La fonction renvoie un résultat via l’instruction **return()**
 
 ## Comment écrire une fonction ? {.unnumbered}
 
@@ -84,9 +85,6 @@ L’instruction `return()` arrête l’exécution de la fonction
 
 <br>
 
-[**return()** est obligatoire]{.red}
-
-
 -   une fonction **peut ne rien renvoyer** : certaines fonctions
     accomplissent une action mais ne renvoient rien (affichage de
     graphique, export de fichier par exemple)
@@ -95,8 +93,12 @@ L’instruction `return()` arrête l’exécution de la fonction
     le bloc d’instructions
 
 -   pour un code plus sûr et plus clair, il est recommandé d'utiliser
-    **systématiquement** la fonction return() afin de préciser l'élément
+    [**systématiquement** la fonction return()]{.red} afin de préciser l'élément
     à renvoyer, quitte à ce que ce soit l’élément NULL
+
+Raccourci clavier utile à partir d'un bout de code à transformer en fonction : CTRL + ALT + X
+ou utiliser le snippet fun
+
 
 ## Comment écrire une fonction ? {.unnumbered}
 
@@ -106,11 +108,10 @@ l’environnement global dans la catégorie ***Functions***
 ![](img/clipboard-ecrire7.png){fig-align="center"}
 
 R traite les fonctions définies par l’utilisateur de la même façon que
-les autres.  
+les autres.
 
-
- [**Attention à ne pas nommer une fonction personnelle de la même façon qu’une fonction existante, pour ne pas l’écraser.**]{.red}
-
+[**Attention à ne pas nommer une fonction personnelle de la même façon
+qu’une fonction existante, pour ne pas l’écraser.**]{.red}
 
 ## Comment écrire une fonction ? {.unnumbered}
 
