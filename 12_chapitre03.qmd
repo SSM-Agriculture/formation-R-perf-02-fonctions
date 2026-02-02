@@ -107,7 +107,7 @@ d’une liste en entrée :
 
 ![](img/clipboard-chap3-10.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
+## {purrr}: Modifier le comportement d'une fonction (avancé){.unnumbered}
 
 <br>
 
@@ -119,14 +119,14 @@ n’est retourné, même si l’erreur est à la fin !
 
 ![](img/clipboard-chap3-11.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
+## {purrr}: Modifier le comportement d'une fonction (avancé) {.unnumbered}
 
 **safely()** ⇒ retourne le résultat et le message d’erreur de la
 fonction
 
 ![](img/clipboard-chap3-12.png){fig-align="center"}
 
-## {purrr}: Modififer le comportement d'une fonction {.unnumbered}
+## {purrr}: Modifier le comportement d'une fonction (avancé) {.unnumbered}
 
 **possibly(**) ⇒ retourne le résultat ou une valeur par défaut en cas
 d’erreur
