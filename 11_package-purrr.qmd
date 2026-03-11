@@ -31,7 +31,7 @@ générale est la suivante :
 :::
 
 
-## {[}purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
+## {purrr} : Itérer sur un vecteur OU une liste {.unnumbered}
 
 [Le traitement correspond à **la fonction** à appliquer]{.Terre_battue1} ⇒ on peut la renseigner de différentes manières :
 
