@@ -72,7 +72,7 @@ renseigner de différentes façons :
 
 -   définie avec (x)
 
-![](img/clipboard-across_p3.pNg){fig-align="center"}
+![](img/clipboard-across_p3.png){fig-align="center"}
 
 -   définie avec des paramètres
 
